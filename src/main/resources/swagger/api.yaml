@@ -1,0 +1,74 @@
+swagger: '2.0'
+info:
+  description: "Solução do problema proposto de validação de senhas"
+  version: '1.0.0-SNAPSHOT'
+  title: "Validation Service"
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0'
+host: 'localhost:8090'
+basePath: /
+tags:
+  - name: validation-controller
+    description: Validation Controller
+  - name: validation-service-application
+    description: Validation Service Application
+paths:
+  /:
+    get:
+      tags:
+        - validation-service-application
+      summary: start
+      operationId: startUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /validate:
+    post:
+      tags:
+        - validation-controller
+      summary: Valida se uma senha é válida.
+      operationId: isAValidPassUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Uma senha criptografada
+          required: true
+          schema:
+            $ref: '#/definitions/ValidateInput'
+      responses:
+        '200':
+          description: Senha válida
+          schema:
+            type: boolean
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Senha inválida
+          schema:
+            type: boolean
+        '404':
+          description: Not Found
+definitions:
+  ValidateInput:
+    type: object
+    properties:
+      pass:
+        type: string
+    title: ValidateInput

@@ -26,7 +26,7 @@ public class ValidationController {
         this.passValidationService = passValidationService;
     }
 
-    @ApiOperation(value = "Valida se uma senha é válida.", response = Boolean.class, tags={ "validation", })
+    @ApiOperation(value = "Valida se uma senha é válida.", response = Boolean.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Senha válida", response = Boolean.class),
             @ApiResponse(code = 403, message = "Senha inválida", response = Boolean.class)
