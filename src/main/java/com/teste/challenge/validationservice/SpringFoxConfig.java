@@ -1,4 +1,4 @@
-package com.iti.challenge.validationservice;
+package com.teste.challenge.validationservice;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ public class SpringFoxConfig {
     public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()
-          .apis(RequestHandlerSelectors.basePackage("com.iti.challenge"))
+          .apis(RequestHandlerSelectors.basePackage("com.teste.challenge"))
           .apis(RequestHandlerSelectors.any())
           .paths(PathSelectors.any())                          
           .build();                                           

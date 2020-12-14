@@ -1,6 +1,6 @@
-package com.iti.challenge.validationservice.service.impl;
+package com.teste.challenge.validationservice.service.impl;
 
-import com.iti.challenge.validationservice.service.PassValidationService;
+import com.teste.challenge.validationservice.service.PassValidationService;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 

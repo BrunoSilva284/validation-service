@@ -1,9 +1,9 @@
-package com.iti.challenge.validationservice;
+package com.teste.challenge.validationservice;
 
-import com.iti.challenge.validationservice.controller.ValidationController;
-import com.iti.challenge.validationservice.model.ValidateInput;
-import com.iti.challenge.validationservice.service.PassValidationService;
-import com.iti.challenge.validationservice.service.impl.PassValidationServiceImpl;
+import com.teste.challenge.validationservice.controller.ValidationController;
+import com.teste.challenge.validationservice.model.ValidateInput;
+import com.teste.challenge.validationservice.service.PassValidationService;
+import com.teste.challenge.validationservice.service.impl.PassValidationServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

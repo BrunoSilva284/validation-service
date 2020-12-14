@@ -1,4 +1,4 @@
-package com.iti.challenge.validationservice.model;
+package com.teste.challenge.validationservice.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

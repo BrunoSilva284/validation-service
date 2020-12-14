@@ -1,4 +1,4 @@
-package com.iti.challenge.validationservice.service;
+package com.teste.challenge.validationservice.service;
 
 public interface PassValidationService {
 

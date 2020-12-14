@@ -1,6 +1,6 @@
-package com.iti.challenge.validationservice.cucumber;
+package com.teste.challenge.validationservice.cucumber;
 
-import com.iti.challenge.validationservice.model.ValidateInput;
+import com.teste.challenge.validationservice.model.ValidateInput;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;

@@ -8,7 +8,7 @@
         <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.iti.challenge</groupId>
+    <groupId>com.teste.challenge</groupId>
     <artifactId>validation-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>validation-service</name>

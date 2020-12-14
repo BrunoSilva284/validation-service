@@ -1,6 +1,6 @@
-package com.iti.challenge.validationservice.cucumber;
+package com.teste.challenge.validationservice.cucumber;
 
-import com.iti.challenge.validationservice.model.ValidateInput;
+import com.teste.challenge.validationservice.model.ValidateInput;
 import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

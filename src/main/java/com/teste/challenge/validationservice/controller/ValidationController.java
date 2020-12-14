@@ -1,7 +1,7 @@
-package com.iti.challenge.validationservice.controller;
+package com.teste.challenge.validationservice.controller;
 
-import com.iti.challenge.validationservice.model.ValidateInput;
-import com.iti.challenge.validationservice.service.PassValidationService;
+import com.teste.challenge.validationservice.model.ValidateInput;
+import com.teste.challenge.validationservice.service.PassValidationService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;

@@ -1,4 +1,4 @@
-package com.iti.challenge.validationservice;
+package com.teste.challenge.validationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
